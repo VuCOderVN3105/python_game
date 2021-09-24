@@ -9,6 +9,7 @@ icon = pygame.image.load('C:/Users/Public/Pics/macOS BigSur ICONS by Maiguris/Vi
 running = True
 while running:
     clock.tick(60)
+    screen.fill((255,255,255))
     screen.blit(icon,(0,0))
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
