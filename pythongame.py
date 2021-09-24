@@ -3,6 +3,7 @@ import pygame
 pygame.init()
 
 screen = pygame.display.set_mode((1080,480))
+pygame.display.set_caption('First Game in Pygame')
 clock = pygame.time.Clock()
 running = True
 while running:
