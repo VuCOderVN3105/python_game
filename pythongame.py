@@ -8,6 +8,7 @@ clock = pygame.time.Clock()
 running = True
 while running:
     clock.tick(60)
+    pygame.draw.line(screen,(0,0), (1080,480), 5)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
